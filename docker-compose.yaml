@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  backend:
+    build: ./server
+    command: npm run dev # Override the default command
+    container_name: backend
+    volumes: 
+      - ./server:/api
+    ports:
+      - 3000:3000
+    #restart: always
+
+  frontend:
+    build: ./web
+    container_name: frontend
+    volumes: 
+      - ./web:/app
+    ports:
+      - 5173:5173
