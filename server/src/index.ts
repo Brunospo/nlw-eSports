@@ -1,5 +1,6 @@
 import express from 'express'
 import cors from 'cors'
+
 import { PrismaClient } from '@prisma/client'
 import { convertHoursStringToMinutes } from './utils/convert-hours-string-to-minutes'
 import { convertMinutesToHoursString } from './utils/convert-minutes-to-hour-string'
@@ -22,7 +23,7 @@ app.get('/games', async (req, res) => {
     }
   })
 
-  return res.json({games})
+  return res.json(games)
 })
 
 app.post('/games/:id/ads', async (req, res) => {
@@ -42,7 +43,7 @@ app.post('/games/:id/ads', async (req, res) => {
     }
   })
 
-  return res.json({ad})
+  return res.json(ad)
 })
 
 app.get('/games/:id/ads', async (req, res) => {
@@ -89,7 +90,7 @@ app.get('/ads/:id/discord', async (req, res) => {
     }
   })
 
-  return res.json({discord})
+  return res.json(discord)
 })
 
 app.listen(3000)
