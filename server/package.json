@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./build/index.js",
     "dev": "ts-node-dev --respawn --transpile-only --exit-child ./src/index.ts",
-    "build": "tsc"
+    "build": "npx tsc"
   },
   "keywords": [],
   "author": "",
