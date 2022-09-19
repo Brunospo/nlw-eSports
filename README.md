@@ -5,10 +5,10 @@
 
 Projeto desenvolvido durante a semana do NLW eEsports da Rocketseat.
 
-Um diferencial que tentei implementar foi rodar o projeto utilizando o docker, porém ele funciona subindo um container de cada vez, mas quando utilizamos o docker-compose ele dá um erro de **prisma generate**, tentei consertar e não consegui, pois ainda não tenho conhecimentos em prisma, mas quando adiquirir esse conhecimento voltarei para consertar. Mas sora isso o projeto está rodando normal.
+Um diferencial que tentei implementar foi rodar o projeto utilizando o docker, porém ele funciona subindo um container de cada vez, mas quando utilizamos o docker-compose ele dá um erro de **prisma generate**, tentei consertar e não consegui, pois ainda não tenho conhecimentos em prisma, mas quando adiquirir esse conhecimento voltarei para consertar. Mas fora isso o projeto está rodando normal.
 <hr>
 
-**A fazer:** Novas telas, validação de formularios, refatoração do backend, consertar erro do prisma generate.
+**A fazer:** Novas telas, validação de formulários, refatoração do backend, consertar erro do prisma generate.
 
 <hr>
 <br>
@@ -24,7 +24,7 @@ Um diferencial que tentei implementar foi rodar o projeto utilizando o docker, p
 
 O projeto consiste numa plataforma para encontrar o parceiro perfeito para jogar seu jogo favorito juntos, conectando sua conta do Discord.
 
-Para encontrar seu parceiro, vc deverá publicar um anuncio preenchendo alguns dados como: Nick do discord, nome do jogo, há quantos anos você joga o game, horaio de inicio e fim que costuma jogar, etc...
+Para encontrar seu parceiro, você deverá publicar um anuncio preenchendo alguns dados como: Nick do jogo, Discord, nome do jogo, há quantos anos você joga o game, horário de inicio e fim que costuma jogar, etc...
 
 ![Página incicial do nlw eSports.](./imgs/page1.jpg)
 
