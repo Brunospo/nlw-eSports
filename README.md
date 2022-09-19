@@ -37,6 +37,7 @@ Para encontrar seu parceiro, você deverá publicar um anuncio preenchendo algun
 - Express
 - Prisma
 - React
+- Tailwind css
 - Radix UI
 
 ## Start
